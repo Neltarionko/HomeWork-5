@@ -1,14 +1,16 @@
 # HomeWork-5
 Домашняя работа, целью которой являлось создание модели мобильного робота с дифференциальным приводом при помощи ROS2 Galactic Geochelone.
 
+## Граф передачи сообщений между узлами системы: 
+![alt text](https://github.com/Neltarionko/HomeWork-5/blob/main/image/rqt.jpg "Cтруктура проекта в виде графа")
+
+Овалы
+
 Inline-style: 
 ![alt text](https://github.com/Neltarionko/HomeWork-5/blob/main/image/msg.jpg "ТЕКСТ ПРИ НАВЕДЕНИИ")
 
 Inline-style: 
 ![alt text](https://github.com/Neltarionko/HomeWork-5/blob/main/image/odom.jpg "ТЕКСТ ПРИ НАВЕДЕНИИ")
-
-Inline-style: 
-![alt text](https://github.com/Neltarionko/HomeWork-5/blob/main/image/rqt.jpg "ТЕКСТ ПРИ НАВЕДЕНИИ")
 
 
 ## Состав работы
