@@ -10,8 +10,8 @@
 ### Шаг 1: Установка пакетов
 1. Создать папку рабочего пространства
 ```
-mkdir ros_ws
-cd ./ros_ws
+mkdir ~/ros_ws
+cd ~/ros_ws
 ```
 2. Склонировать содержимое репозитория
 ```
@@ -19,25 +19,33 @@ git clone https://github.com/Neltarionko/HomeWork-5
 ```
 3. Меняем командную оболочку с Bash на ROS2
 ```
+source /opt/ros/galactic/setup.bash
 ```
 4. Необходимо собрать проект
 ```
 colcon build
 ```
-### Шаг 2: Запуск
-
-1 термирминал запуск ноды
+### Шаг 2: Запуск для проверки работоспособности
+1. Создать 3 окна терминала, в каждом перейти в директорию рабочего пространства и сменить командную оболочку
+```
+cd ~/ros_ws
 source /opt/ros/galactic/setup.bash
-colcon build
-. install/local_setup.bash 
-ros2 run snarbot publisher 
-
-2 терминал запус rviz
-source /opt/ros/galactic/setup.bash
+```
+2. В первом терминале запустить узел TURTLEBOT3
+```
 export TURTLEBOT3_MODEL=waffle
-ros2 launch turtlebot3_bringup rviz2.launch.py 
-
-3 терминал запус клавиатуры
-source /opt/ros/galactic/setup.bash
+ros2 launch turtlebot3_bringup rviz2.launch.py
+```
+3. Во втором терминале запустить публикатор узла snarbot
+```
+. install/local_setup.bash 
+ros2 run snarbot publisher
+```
+4. В третьем терминале запустить средство визуализации rviz
+```
 export TURTLEBOT3_MODEL=waffle
 ros2 run turtlebot3_teleop teleop_keyboard 
+```
+
+Управление роботом происходит посредством нажатия стрелочек на клавиатуре в терминале с запущенным TURTLEBOT3. 
+
