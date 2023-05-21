@@ -1,5 +1,10 @@
 # HomeWork-5
 
+## Состав работы
+В результате работы было создано два пакета:
+* sus
+* snarbot
+
 1 термирминал запуск ноды
 source /opt/ros/galactic/setup.bash
 colcon build
