@@ -4,12 +4,13 @@
 ## Граф передачи сообщений между узлами системы: 
 ![alt text](https://github.com/Neltarionko/HomeWork-5/blob/main/image/rqt.jpg "Cтруктура проекта в виде графа")
 
-Овалы
+Овалы - узлы системы
+Прямоугольники - сообщения между узлами
 
-Inline-style: 
-![alt text](https://github.com/Neltarionko/HomeWork-5/blob/main/image/msg.jpg "ТЕКСТ ПРИ НАВЕДЕНИИ")
+## Сообщения проекта: 
+![alt text](https://github.com/Neltarionko/HomeWork-5/blob/main/image/msg.jpg )
 
-Inline-style: 
+## Проверка отрисовки проекта: 
 ![alt text](https://github.com/Neltarionko/HomeWork-5/blob/main/image/odom.jpg "ТЕКСТ ПРИ НАВЕДЕНИИ")
 
 
