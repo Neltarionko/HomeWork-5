@@ -68,7 +68,7 @@ class MinimalPublisher(Node):
         num.header.stamp = self.get_clock().now().to_msg()
         num.header.frame_id = "step"
         num.l = int(((4096 /(3.14*2))* ((self.stepl.integ(wl)) % 3.14*2)))
-        num.r = int(((4096 /(3.14*2))* ((self.stepl.integ(wr)) % 3.14*2)))
+        num.r = int(((4096 /(3.14*2))* ((self.stepr.integ(wr)) % 3.14*2)))
         self.num.publish(num)
 
 def main(args=None):
