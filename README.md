@@ -1,6 +1,16 @@
 # HomeWork-5
 Домашняя работа, целью которой являлось создание модели мобильного робота с дифференциальным приводом при помощи ROS2 Galactic Geochelone.
 
+Inline-style: 
+![alt text](https://github.com/Neltarionko/HomeWork-5/blob/main/image/msg.jpg "ТЕКСТ ПРИ НАВЕДЕНИИ")
+
+Inline-style: 
+![alt text](https://github.com/Neltarionko/HomeWork-5/blob/main/image/odom.jpg "ТЕКСТ ПРИ НАВЕДЕНИИ")
+
+Inline-style: 
+![alt text](https://github.com/Neltarionko/HomeWork-5/blob/main/image/rqt.jpg "ТЕКСТ ПРИ НАВЕДЕНИИ")
+
+
 ## Состав работы
 В результате работы было создано два пакета:
 * sus - пакет типа ament-cmake для создания собственного системного сообщения;
